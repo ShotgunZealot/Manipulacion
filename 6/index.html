@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6</title>
+</head>
+
+<body>
+    <form id="formulario">
+        <div>
+            <label for="fecha">Fecha de reserva:</label>
+            <input type="date" id="fecha" name="fecha">
+        </div>
+        <div id="message">
+            <label for="hora">Hora de reserva:</label>
+            <select id="hora" name="hora">
+
+            </select>
+        </div>
+
+        <label for="personas">Número de personas:</label>
+        <input type="number" id="personas" name="personas" min="1" max="10">
+
+        <input type="submit" value="Reservar">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
